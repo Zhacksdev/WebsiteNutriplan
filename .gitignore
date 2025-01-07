@@ -1,0 +1,14 @@
+# ASP.NET files
+bin/
+obj/
+*.suo
+*.user
+*.sln.docstates
+
+# Node.js frontend
+node_modules/
+dist/
+.env
+
+# Logs
+*.log
