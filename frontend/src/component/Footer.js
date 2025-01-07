@@ -1,4 +1,8 @@
 import logofooter from "../asset/logo-footer.svg";
+import fotojeki from "../asset/contributor/jeki.jpg";
+import fototyo from "../asset/contributor/tyo.jpg";
+import fotodamba from "../asset/contributor/damba.jpg";
+import fotodev from "../asset/contributor/devina.jpg";
 
 const Footer = () => {
   return (
@@ -32,6 +36,10 @@ const Footer = () => {
               height: "40px",
               borderRadius: "50%",
               backgroundColor: "#fff",
+              backgroundImage: `url(${fotodev})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
 
@@ -41,6 +49,10 @@ const Footer = () => {
               height: "40px",
               borderRadius: "50%",
               backgroundColor: "#fff",
+              backgroundImage: `url(${fotojeki})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
 
@@ -50,6 +62,23 @@ const Footer = () => {
               height: "40px",
               borderRadius: "50%",
               backgroundColor: "#fff",
+              backgroundImage: `url(${fototyo})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+
+          <div
+            style={{
+              width: "40px",
+              height: "40px",
+              borderRadius: "50%",
+              backgroundColor: "#fff",
+              backgroundImage: `url(${fotodamba})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
 
@@ -57,7 +86,7 @@ const Footer = () => {
             style={{
               color: "#FDFFF7",
               fontFamily: "MODERNIZ",
-              fontSize: "10px",
+              fontSize: "8px",
               fontStyle: "normal",
               fontWeight: 700,
               lineHeight: "normal",
